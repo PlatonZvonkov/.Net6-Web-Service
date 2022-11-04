@@ -12,7 +12,7 @@ namespace MonkMailService.Controllers
     {
         private readonly IEmailService service;
         
-        public MailController(IEmailService service, SQLiteContext context)
+        public MailController(IEmailService service)
         {
             this.service = service;           
         }
