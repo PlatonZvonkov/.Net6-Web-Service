@@ -5,10 +5,10 @@ ASP.Net Core, .Net6, EFCore, Automapper, MailKit, SQLite, xUnit, Mock
 
 Сервис принимает по адресу url:\\api\mails, либо POST куда можно послать тело запроса в виде 
   
-{
-subject:"string"
-body:"string"
-recipients:["string"]
+{  
+subject:"string",  
+body:"string",  
+recipients:["string"]   
 }
   
 либо GET и выдаёт лог попыток послать письма, успешных и неудачных.
