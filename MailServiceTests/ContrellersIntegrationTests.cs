@@ -60,7 +60,7 @@ namespace MailServiceTests
 
             using (var context = new SQLiteContext(options))
             {
-                var controller = new MailController(mockRepo.Object, context);
+                var controller = new MailController(mockRepo.Object);
                 controller.ModelState.AddModelError("SessionName", "Required");
 
                 // Act
