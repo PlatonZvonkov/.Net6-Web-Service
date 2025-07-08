@@ -1,4 +1,5 @@
 # .Net6-Web-Service
+Real-world life mailing microservice that was developed during my time in SULPAK
 
 Задача: Web-сервис для формирования и отправки писем адресатам и логирование результата в реляционную БД.
 
